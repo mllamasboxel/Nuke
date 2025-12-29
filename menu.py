@@ -7,3 +7,6 @@ menu.addCommand(
     "play_readnode_external.play_readnode_in_rv()",
     "Alt+Q"
 )
+
+import GrayAutoBackdrop
+nuke.menu('Nuke').addCommand('Extra/Gray Auto Backdrop', lambda: GrayAutoBackdrop.GrayAutoBackdrop(), "alt+b", shortcutContext=2)
